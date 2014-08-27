@@ -1,0 +1,14 @@
+# /vagrant/hieradata/cisrvr.home.yaml
+---
+domain_home: '/tmp'
+tomcat_version: '7.0.54'
+tomcat_admin: "tomcat"
+tomcat_pwd: "tomcat"
+tomcat_install_group: "tomcat"
+tomcat_install_user: "tomcat"
+tomcat_http_port: 80
+tomcat_https_port: 443
+classes:
+  - jrockit::usergroup
+  - jrockit::install
+  - tomcat

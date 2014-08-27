@@ -1,0 +1,4 @@
+# /vagrant/hieradata/mysql.home.yaml
+classes:
+  - jrockit::usergroup
+  - jrockit::install
